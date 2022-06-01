@@ -1,0 +1,62 @@
+#Program Setup List
+##Assumptions
+- Assuming Windows 7 or higher (hopefully higher), with at least 256gb disk space, 8gb memory, and 2 core/4 threads system with hardware produced in the past 10 years. 
+- Assuming end user owns system
+- Assuming a minimal to moderate security environment
+- Assuming a naive user with minimal technical knowledge, but one with sufficient computer literacy to be able to figure out how to use most simple programs with the help of the internet, and their lived experience.
+- Assuming no peripherals beyond keyboard, mouse, headphones, microphone.
+- Assuming a light workload of casual "home" use, without gaming, significant content creation. Assuming all professional work is done either in browser, in MS Office applications, or on another system.
+- User will likely install a few random, unpredictable programs over the lifetime of the install.
+
+#Install in all cases
+These programs should be installed in all cases, and should have their file associations set to include most types they should reasonably be associated with. 
+If a program is not likely to recieve near universal adoption (e.g. lots of users without sophisticated email needs hate outlook), it will appear in later lists on the page
+##Program listing
+
+
+###Basic File management of common types
+- Notepad++
+- Microsoft Word, Powerpoint, Excel
+- VLC Media Player
+- Foxit PDF Reader
+- Paint.Net
+- 7-zip
+
+###Core Utilities
+- Google Chrome (or Brave)
+-- Ublock Origin
+- Firefox
+-- Ublock origin
+- Zoom (even if another vendor is used for videoconference, Zooms high adoption makes it essential)
+- If user has a desktop printer/ scanner, the vendor's print/scan utility
+- If an email service other than Gmail or Yahoo is used by the user, MS Outlook
+- Any communications programs the user needs (E.G. Slack, Cisco WebEx, SoftPhones, VPN)
+
+###Libraries and Compatibility tools
+- GPL GhostScript
+
+###Technician Tools
+(Note, these tools should likely be installed before you need them, for efficiency, and in the case of disk related utilities, to ensure maximum odds of a good outcome, but also should be locked away from users, either by installing them to a technician account, or by using portable versions in a hidden folder. Automatic starts should be disabled in virtually all cases)
+- Recuva
+- Speccy
+- Advanced IP Scanner (or similar)
+- FolderTreeSize or WinDirStat
+- AutoRuns
+- HxD
+- PuTTY or MobaXTerm
+- FileZilla or WinSCP
+- SeaTools for WIndows
+- Revo Uninstaller (or similar)
+
+###Hit or miss programs
+
+####Configuration Notes
+- Chrome should be set to be the default browser, firefox should be hidden, but not locked away (Reason: Larger chrome user adoption, more users like it. Additionally, the Chrome webkit is better supported by websites as a result.)
+- Using either the registry or add/remove programs (depending on windows version), MS Paint should be removed entirely in favor of paint.net, or the shell entry for "Edit" should be redireted to point to paint.net
+- Similarly, while windows notepad cannot be safely removed from windows in my experience, pointing the "edit" entry in the shell for both notepad and wordpad to Notepad++ can only yield good things for usability
+- Desktop icons should be locked to grid
+- Shortcuts to core windows folders within the user directory (downloads, pictures, my documents) should be present on the desktop.
+- Desktop shortcuts should ONLY exist for primary browser, MS office applications that are installed, settings, control panel, This PC, All communications programs installed, and, if provided, a getting started guide for your users
+- File extensions should be enabled. Hidden and system files should remain hidden
+___
+
