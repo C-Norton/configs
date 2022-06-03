@@ -48,7 +48,10 @@ If a program is not likely to recieve near universal adoption (e.g. lots of user
 - SeaTools for WIndows
 - Revo Uninstaller (or similar)
 
-###Hit or miss programs
+###Hit or miss programs (these likely shouldn't be installed by default, but offered in turn)
+- Outlook in non M365 environments
+- DisplayFusion
+- Calculator²
 
 ####Configuration Notes
 - Chrome should be set to be the default browser, firefox should be hidden, but not locked away (Reason: Larger chrome user adoption, more users like it. Additionally, the Chrome webkit is better supported by websites as a result.)
